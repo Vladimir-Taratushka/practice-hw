@@ -1,3 +1,4 @@
+/* CEЛЕКТОР ТЕГА */
 .test-link {
   color: black;
 }
@@ -10,3 +11,25 @@
 .test-link:active {
   color: blue;
 }
+body {
+  background-color: brown;
+}
+/*СЕЛЕКТОР ИДЕНТИФИКАТОРА*/
+#header {
+  background: wheat;
+  color: black;
+}
+/*CЕЛЕКТОР ПОТОМКА*/
+.main-nav > li {
+  color: darkgreen;
+}
+.main-nav > li :hover {
+  color: blue;
+}
+/*СЕЛЕКТОР РЕБЕНКА*/
+.image-gate > img {
+  border: solid;
+  color: blue;
+  width: 200px;
+}
+/*СЕЛЕКТОР АТРИБУТА*/
