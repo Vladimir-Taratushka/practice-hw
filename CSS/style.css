@@ -10,3 +10,33 @@
 .test-link:active {
   color: blue;
 }
+.text > span {
+  text-decoration: line-through;
+}
+.site-nav .link {
+  text-transform: uppercase;
+}
+.post-title {
+  text-align: center;
+}
+.post-text {
+  text-indent: 100px;
+}
+.text {
+  font-size: 16px;
+  line-height: 1;
+}
+.post-title {
+  letter-spacing: 10px;
+}
+
+.post-text {
+  letter-spacing: 5px;
+}
+.title {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
